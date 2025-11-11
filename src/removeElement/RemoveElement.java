@@ -28,6 +28,13 @@ public class RemoveElement {
         for (int i = 0; i < result.length; i++) {
             System.out.println(result[i] + " "); 
         }
+        
     }
+    
+    public boolean esPar (int num) {   	
+    	return (num % 2 == 0) ? true : false; 
+    }
+    
+   
 
 }
